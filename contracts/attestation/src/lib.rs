@@ -3845,6 +3845,9 @@ impl AttestationContract {
 // (some modules need updates on this branch before they compile).
 #[cfg(all(test, feature = "full-tests"))]
 mod access_control_test;
+
+#[cfg(test)]
+mod access_control_role_names_test;
 #[cfg(all(test, feature = "full-tests"))]
 mod anomaly_test;
 #[cfg(test)]
