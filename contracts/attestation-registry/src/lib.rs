@@ -53,6 +53,8 @@ use soroban_sdk::{contract, contractimpl, contracttype, Address, Bytes, Env, Str
 mod registry_batch_consistency_test;
 #[cfg(test)]
 mod test;
+#[cfg(test)]
+mod test_get_version_info;
 
 // ════════════════════════════════════════════════════════════════════
 //  Storage types
